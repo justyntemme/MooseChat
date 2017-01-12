@@ -8,10 +8,12 @@ import (
 )
 
 func main() {
+	var conf Config
+
 	onionURL := tor.StartTorService()
 	fmt.Println(onionURL)
 }
 
-func readConfig() {
+func readConfig() Config{
 
 }

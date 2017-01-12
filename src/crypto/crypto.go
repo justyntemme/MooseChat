@@ -1,8 +1,12 @@
 package crypto
 
-import "os/exec"
+import (
+	"bytes"
+	"log"
+	"os/exec"
+)
 
-func decrypt(string s) string{
+func decrypt(s string) string {
 	cmd := exec.Command("gpg", "-d", s)
 	stdout, errout := cmd.StdoutPipe()
 	if errout != nil {

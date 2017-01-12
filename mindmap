@@ -1,0 +1,13 @@
+MAIN()
+
+START TOR SERVICE() (return onion url)
+
+Start UI() (ask user for connection url)
+
+Take user message and encrypt (option to save pass in mem in config)
+
+send message()
+
+recive message() (decrypt with gpg binary)
+
+present to buffer()

@@ -11,3 +11,9 @@ send message()
 recive message() (decrypt with gpg binary)
 
 present to buffer()
+
+##### Config File --config for config file location
+
+# Onion to connect to 
+# GPG key To encrypt for
+# GPG key to depcrypt for
